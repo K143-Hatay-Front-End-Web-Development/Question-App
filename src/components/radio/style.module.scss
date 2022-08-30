@@ -1,0 +1,44 @@
+.Label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+
+    span {
+        font-size: 14px;
+        color: #555;
+        margin-bottom: 5px;
+    }
+
+    .radioList {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        label {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 5px 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+    }
+
+
+
+
+    input {
+        border: 1px solid #555;
+        border-radius: 7px;
+        padding: 10px
+    }
+
+    strong {
+        font-weight: 400;
+        color: #f44;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+}

@@ -1,0 +1,43 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+
+
+    .question {
+        margin-bottom: 10px;
+    }
+
+    .answers {
+        display: flex;
+        flex-direction: row;
+
+        .current {
+            background-color: rgb(40 126 0);
+            color: #fff;
+            display: flex;
+            flex: 1
+        }
+
+        .wrong {
+            display: flex;
+            flex: 1;
+            background: #aaa;
+        }
+
+        div {
+            margin:5px 15px;
+            padding: 5px 10px;
+            border-radius: 5px;
+
+            &:first-child {
+                margin-left: 0;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}

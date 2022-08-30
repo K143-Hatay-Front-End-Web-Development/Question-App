@@ -1,0 +1,14 @@
+.Login {
+    width: 100%;
+    height: calc(100vh - 120px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        width: 320px;
+        border: 1px solid #ddd;
+        padding: 20px;
+        border-radius: 7px;
+    }
+}

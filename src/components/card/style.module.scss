@@ -1,0 +1,28 @@
+.Container {
+    width: 25%;
+    padding: 12px;
+
+    .row {
+        width: 100%;
+        border: 1px solid #ddd;
+        display: flex;
+        flex-direction: column;
+        min-height: 100px;
+        padding: 20px;
+
+        .title {
+            font-size: 24px;
+            text-align: left;
+            font-weight: 600;
+        }
+        .subTitle {
+            font-size: 14px;
+            text-align: left;
+        }
+
+        .result {
+            font-size: 24px;
+            text-align: right;
+        }
+    }
+}
